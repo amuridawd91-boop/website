@@ -1,0 +1,82 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-content:space-around;
+    background-color: #1F2937;
+    color: white;
+    flex-direction: column;
+    font-family:  arial;
+    height: 360px;
+     
+     
+}
+.logo{
+    display:flex;
+    color:#F9FAF8;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    font-weight: bold;
+    padding-bottom: 60px;
+    
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 100;
+    
+}
+.website{
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 35px;
+    color:#F9FAF8;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+
+.holder{
+    display:flex;
+    justify-content: center;
+    gap: 50px; 
+    
+}
+.chinqet{
+    display:flex;
+    flex-direction: column;
+    margin-left: 120px;
+    
+}
+p{
+   margin-top: 0;
+   color: #E5E7EB;
+   font-size: 12px; 
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    align-self: flex-start;
+    padding: 6px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+}
+.placeholder{
+    display: flex;
+    margin-right: 130px;
+    padding: 60px;
+    background-color: grey;
+    height: 60px;
+    width: 500px;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+}
